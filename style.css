@@ -1,0 +1,93 @@
+
+
+  * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+    .nav-item .nav-link{
+        color:#fff;
+    }
+    .navbar{
+        background: linear-gradient(to bottom, #3bacd2 0%, #1b191a 100%)
+    }
+    .navbar .container .navbar-nav{
+        text-align: center;
+        margin: auto;
+        color:white !important;
+    }
+    .nav-item{
+        color: white !important;
+        margin-right: 20px;
+    }
+    a {
+        color: #fff;
+    }
+   .img-container {
+       
+       background-image: url("img/surface.jpg");
+   }
+
+   .parallax-content {
+    width: 100%;
+    min-height: 91vh;
+    background-size: cover;
+  }
+  
+  .baner-content {
+        width: 100%;
+        padding-top: 35vh;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/img/table-unsplash.jpg");
+        vertical-align: middle;
+  }
+  
+  .baner-content .text-content {
+      text-align: left;
+  }
+  
+  .baner-content .text-content h2 {
+      font-size: 3.75rem;
+      line-height: 1;
+      /* font-size: 36px; */
+      font-weight: 900;
+      color: #fff;
+  }
+  img {
+      border-radius: 40%;
+      margin-top: 10px;
+      
+  }
+
+  .heading {
+      font-size: 3rem;
+      padding: 20px;
+      margin-bottom: 60px;
+
+  }
+.container-2{
+    text-align: center;
+    background-image: linear-gradient(rgb(76, 71, 71), rgb(36, 148, 168));
+    color: white;
+    padding: 50px;  
+}
+.courses-container {
+    background-color: grey;
+    height: 200px;
+}
+.courses-container h2{
+    padding-top: 30px;
+}
+.footer {
+    padding: 20px;
+    color: white;
+    background-color: rgb(11, 16, 34);
+}
+.copyright {
+    color: white;
+     background-color: rgb(36, 62, 70);
+}
+.icon {
+    height: 30px;
+    margin: 10px;
+}
