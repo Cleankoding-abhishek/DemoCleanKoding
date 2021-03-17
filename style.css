@@ -4,12 +4,27 @@
       margin: 0;
       box-sizing: border-box;
     }
-    .nav-item .nav-link{
-        color:#fff;
+    body {
+      overflow-x: hidden;
+
     }
     .navbar{
         background: linear-gradient(to bottom, #3bacd2 0%, #1b191a 100%)
     }
+    .navbar .navbar-nav{
+        /* text-align: center; */
+        margin: auto    ;
+    }
+    .nav-link{
+        color:#fff !important;
+    }
+    .navbar .navbar-nav a {
+        margin-right: 24px;
+    }
+
+     /* 
+     */
+    /*
     .navbar .container .navbar-nav{
         text-align: center;
         margin: auto;
@@ -18,18 +33,17 @@
     .nav-item{
         color: white !important;
         margin-right: 20px;
-    }
+    } */
     a {
         color: #fff;
     }
    .img-container {
-       
        background-image: url("img/surface.jpg");
    }
 
    .parallax-content {
     width: 100%;
-    min-height: 91vh;
+    min-height: 100vh;
     background-size: cover;
   }
   
@@ -53,7 +67,7 @@
       font-weight: 900;
       color: #fff;
   }
-  img {
+  .baner-content img {
       border-radius: 40%;
       margin-top: 10px;
       
@@ -67,17 +81,12 @@
   }
 .container-2{
     text-align: center;
+    min-height: 94vh;
     background-image: linear-gradient(rgb(76, 71, 71), rgb(36, 148, 168));
     color: white;
     padding: 50px;  
 }
-.courses-container {
-    background-color: grey;
-    height: 200px;
-}
-.courses-container h2{
-    padding-top: 30px;
-}
+
 .footer {
     padding: 20px;
     color: white;
@@ -90,4 +99,115 @@
 .icon {
     height: 30px;
     margin: 10px;
+}
+.container-2 img {
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.courses-container {
+    background-color: grey;
+    color: white;
+    height: 93vh;
+}
+.courses-container h2{
+    padding-top: 30px;
+}
+.courses-container > .row {
+    display: flex;
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 60px;
+}
+/* how to apply */
+.how-to-apply {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.how-to-apply h3,h4{
+    color: rgb(70, 65, 65);
+}
+.part-01 {
+    padding-top: 60px;
+    color: white;
+}
+.part-02 img{
+    height: 100px;
+    width: 100px;
+}
+.part-02 .second-row{
+    text-align: center;
+}
+.second-row {
+    /* background-color: violet; */
+    /* height: 50vh; */
+}
+.second-row .first{
+    text-align: center;
+    padding-left: 240px;
+    margin-top: 40px;
+    }
+.second-row .second{
+    margin-top: 40px;
+    text-align: center; 
+    padding-right: 245px;
+    padding-bottom: 50px;
+ }
+
+ /* ISA */
+ .vl {
+    border-left: 6px solid green;
+    height: 400px;
+  }
+ .ISA-container{
+     background-color: #1f1f35;
+     color: white;
+ }
+
+ .ISA-container .text-nowrap {
+     margin-left: 60px;
+ }
+.ISA-heading h2{
+    padding-top: 100px;
+}
+.ISA-container img{
+    width: 400px;
+    height: 300px;
+}
+.ISA-container .row {
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.ISA-heading h2{
+    font-size: 3rem;
+    line-height: 1;
+}
+.ISA-heading p{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(128, 13, 13)  ;
+    line-height: 1;
+}
+/* Ready to crack */
+.Ready-to-crack{
+    background-image:linear-gradient(to right, #212020 , #c9302c);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Ready-to-crack h2 {
+    font-size: 3rem;
+    line-height: 1;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.Ready-to-crack button {
+    background-image:linear-gradient(to right, #e01515 , #564a4a);
+    color: white;
+    border: none;
+    margin-top: 34px;
+    padding:10px;
+    border-radius: 10px;
+    width: 10rem;
+    outline: none;
 }
