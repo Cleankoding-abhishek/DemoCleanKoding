@@ -9,7 +9,7 @@
 
     }
     .navbar{
-        position: relative;
+        /* position: relative; */
         background: linear-gradient(to bottom, #3bacd2 0%, #1b191a 100%)
     }
     .navbar .navbar-nav{
