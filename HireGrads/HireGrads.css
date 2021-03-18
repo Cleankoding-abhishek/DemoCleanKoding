@@ -1,0 +1,46 @@
+
+
+body {
+    background-color: rgb(17, 17, 44);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    height:100%;
+}
+
+.Fees .container{
+    margin-top: 4rem;
+    background-color: rgb(17, 17, 44) !important;
+    text-align: center;
+}
+.Fees .container .Header h2{
+    font-weight: 800;
+    font-family: "DM Serif Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: slategrey;
+    line-height: 48px;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+ p{
+    font-family: "DM Sans", "Segoe UI", system-ui, -apple-system, sans-serif;;
+    font-weight: 400;
+    line-height: 28px;
+    color: #cecece;
+}
+/* Part 02 card */
+.fee-card img {
+    background-color: rgb(122 201 224);
+    border-radius: 2rem;
+    margin-left: 190px;
+    max-width: 50rem;
+    max-height: 435px;
+}
+.fee-card .paragraph p{
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 14rem;
+    padding-right: 7rem;
+}
